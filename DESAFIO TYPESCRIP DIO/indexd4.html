@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO 4 S</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dist/desafios/app4.js"></script>
+</head>
+<body class="principal">
+    <div id="box-principal">
+        <div id="login-container">
+            <p>LOGIN: <input id="login" placeholder="digite" onchange="preencherLogin(event)"></p>
+            <p>SENHA: <input id="senha" placeholder="digite" type="password" onchange="preencherSenha(event)"></p>
+            <p>Api Key: <input id="api-key" placeholder="digite" onchange="preencherApi()"></p>
+            <button id="login-button" disabled>Login</button>
+        </div>
+        <div id="search-container">
+            <input id="search" placeholder="Escreva...">
+            <button id="search-button">Pesquisar Filme</button>
+        </div>
+    </div>
+</body>
+</html>

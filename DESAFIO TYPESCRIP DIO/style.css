@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-color: wheat;
+}
+
+#box-principal{
+    display: flex;
+    padding-top: 40px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-container{
+    display: flex;
+    width: 350px;
+    height: auto;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#search-container{
+    display: flex;
+    justify-items: baseline;
+    border: 1px solid black;
+}
